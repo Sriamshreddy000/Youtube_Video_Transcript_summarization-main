@@ -1,0 +1,44 @@
+Python Installation:
+
+    1)Visit the official Python website.
+    2)Scroll down to the Python releases section and locate the "Python 3.9.13" release.
+    3)Click on the download link corresponding to your operating system (Windows, macOS, or Linux).
+    4)Run the installer and make sure to check the option "Add Python to PATH" (Windows) or "Install for all users" (macOS and Linux).
+    5)Follow the on-screen instructions to complete the installation.
+
+Anaconda Installation:
+
+    1)Visit the Anaconda archive page at https://repo.anaconda.com/archive/.
+    2)Scroll down the page and find the version that matches Anaconda3-2022.10.
+    3)Click on the corresponding link to download the installer for your operating system.
+    4)Run the installer and follow the on-screen instructions to install Anaconda.
+    5)During the installation process, you may be prompted to select the installation location and optionally add Anaconda to your system's PATH.
+
+Git Installation (Windows):
+
+    1)Visit the official Git website at https://git-scm.com/downloads and  Download the Git installer for Windows.
+    2)Run the installer and follow the on-screen instructions, keeping the default settings unless you have specific preferences.
+    3)On the "Select Components" screen, ensure that "Git Bash Here" and "Git GUI Here" options are selected. You can also choose additional components if needed.
+    4)On the "Adjusting your PATH environment" screen, select the "Use Git from the Windows Command Prompt" option.
+    5)Choose the default terminal emulator (Git Bash is recommended) and complete the installation process.
+
+Dependencies Installation:
+
+    1)Open the Anaconda Prompt or activate the Anaconda environment in the command prompt.
+    2)Navigate to the directory where your project's source code is stored.
+        cd /path-to/project
+    3)Run the following command:
+        pip install -r requirements.txt
+        This command installs the dependencies listed in the requirements.txt file.
+    4)After the installation is complete, close the Anaconda Prompt.
+    
+Execution Steps:    
+    
+    1)Open the command prompt or terminal.
+    2)Navigate to the project directory:
+        cd /path-to/project
+    3)Run the following command:    
+        streamlit run app.py
+    4)The application's user interface will automatically load in your web browser.
+    5)Alternatively, you can manually access the application by pasting the following URL in your browser's address bar:
+        localhost:8501
